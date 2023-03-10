@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Joanna Js Test</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Java<span>Script</span></h1>
+    <input id="userinput" type="text" class="radiu" placeholder="Search for movie" autocomplete="off"
+      onkeyup="showSuggest()">
+    <div id="suggestions" class="hidden">
+      <div>
+        <h3 class="movie">Movies</h3>
+        <ul id="moviesUl">
+        </ul>
+      </div>
+      <div>
+        <h3 class="tvshow">TV Shows</h3>
+        <ul id="showUl">
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
